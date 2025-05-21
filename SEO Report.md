@@ -547,18 +547,18 @@ Footerda bulunan logo arkaplanı transparan hale getirilmeden konumlandırılmı
 
 #### Aynı renk paletinden çift widget
 
-[](250522_01h26m32s_screenshot.png)
+![](250522_01h26m32s_screenshot.png)
 
 Burada bulunan CTA widgetı ile footerın birbiriyle aynı paletten iki yakın renkle konumlandırılması, aynı background-image ya da SVG kullanılması hoş bir görüntü yaratmıyor.
 
-[](250522_01h38m48s_screenshot.png)
+![](250522_01h38m48s_screenshot.png)
 
 
 Örneğin, Footer için solid bir renk ve CTA için logodaki "Fatih" vurgusunun gövdesinden bir HEX code ile, web sitesi kimliğine daha yakın sonuçlar elde etmek mümkün. Ayrıca User-agent Stylesheet'i kaldırarak CTA bileşeninin içerisinde bulunan list elementlerin sol paddingini lütfen yok edin, orantısızlığa sebep oluyor. Kırmızının tonu daha da açılabilir ve backgroundda kullanılan hatlar öne çıkarılabilir. Renk paletinin duruşu ne kadar değiştirebileceğini göstermek için CSS ayarlarıyla bir miktar oynadım, daha iyi renkler ve tasarım düşünülebilir.
 ***
 ### Genel itibariyle renk paleti
 
-[](Pasted_image_20250522020921.png)
+![](Pasted_image_20250522020921.png)
 
 Genel itibariyle renk paletinde dengesizlik söz konusu. ::active ve hover pseudoclasslar için turuncu tercih edilmesi yanlış. Butonun mavisi yerine yukarıda gösterdiğim gibi logo üzerinden renk tercih edilebilir, hover rengi için soft grilere ya da yine logo renklerine başvurulabilir.
 
@@ -566,40 +566,40 @@ Genel itibariyle renk paletinde dengesizlik söz konusu. ::active ve hover pseud
 ***
 ### Sectionlar arası geçiş hissiyatı yok
 
-[](Pasted_image_20250522021049.png)
+![](Pasted_image_20250522021049.png)
 
 Bu üç kısım birbirinden farklı vurgular yapmasına rağmen bir arada durarak UX karmaşası yaratıyor. Lütfen bu üç kısım için basit, sade bir siyah/beyaz/siyah ya da tam tersi olacak şekilde üretebileceğiniz bir çözümle section ayrımları yaratın. Çok fazla hazır class bulunduğundan doğaçlama CSS yazarak örnek gösteremiyorum.
 ***
 
 #### Sayfalardaki UL elementler ve çeviri hataları
 
-[](Pasted_image_20250522021140.png)
+![](Pasted_image_20250522021140.png)
 
 Görülebileceği üzere SEO kısmında da bahsettiğim gibi uzantı ve sayfadaki About kelimeleri Rusça ve Kiril alfabesi ile yazılmamış. Ayrıca sayfadaki art arda gelen uzun metinler ile list ögeleri tasarımı bozuyor. Tasarım konusunda aksiyon almak size kalmış lakin bu, kabul edilebilir düzeyde bir about sayfası tasarımı değil.
 ***
 
 #### Başka bir sayfada daha list ögesi yığılması ve margin/padding ayarlamaları
 
-[](Pasted_image_20250522021215.png)
+![](Pasted_image_20250522021215.png)
 
 Görebileceğiniz gibi sayfada grid yapısı bulunmuyor ve nested list ögeleri sebebiyle bozuk bir görüntü oluşuyor. Sayfanın bağlamını Kiril alfabesi bilsem de yorumlayamadığımdan içerik açısından değerlendirme yapamıyorum. Gördüğümü yorumlamam gerekirse de bu sayfa herhangi bir nitelik taşımaktan ziyade yemek tarifine benziyor.
 ***
 #### Sayfa yapısı tamamen bozuk.
 
-[](250522_02h03m37s_screenshot.png)
+![](250522_02h03m37s_screenshot.png)
 
 Bu uzantıda footer doğru yerinde değil, neredeyse hiçbir içerik yok. SEO ve tasarım katliamı. Sayfanın düzgün görünmesi için %125 zoom yapılması gerekiyor.
 ***
 
 #### Sertifikasyon sayfasının hiçbir semantik değeri yok.
 
-[](Pasted_image_20250522020525.png)
+![](Pasted_image_20250522020525.png)
 
 Bu sertifikaların içeriğini Rusya pazarındaki bir kullanıcının ya da müşterinin anlaması mümkün değil, sertifikalar yine grid yapısı bozuk şekilde doğruca kopyala yapıştır yapılmış. Bu sayfaya İki widget tasarımı yapın ve iki sertifika hakkında da Rusça bilgi sağlayın. Sertifikaları width etiketleriyle orantılı biçimde grid'e oturtup büyütülebilir hale getirin.
 ***
 #### Bu sayfayı kaldırabilirsiniz
 
-[](250522_02h12m42s_screenshot.png)
+![](250522_02h12m42s_screenshot.png)
 
 Bu sayfadaki iştiraklerin daha düzgün ve yapılı bir şekilde About Us'a taşınmasını ve tamamen kaldırılmasını sağlayın. Ayrı bir sayfada marka listelemesi yapmanın bir anlamı bulunmuyor.
 ***
@@ -607,7 +607,7 @@ Bu sayfadaki iştiraklerin daha düzgün ve yapılı bir şekilde About Us'a ta�
 
 Çünkü hemen hepsinde aynı UI/UX hataları söz konusu. Revizeye gidip sayfaları en baştan değerlendirmeniz ve daha iyi bir kullanıcı deneyimi akışı yaratmanız faydalı olur. Sayfalardaki imajların tamamı sadece img etiketi ile yapıştırılmış ve üzerine birtakım list ögeleri sıralanmış. Bu estetik bir tasarım ve sayfalama yaklaşımı değil.
 
-[](250522_02h15m34s_screenshot.png)
+![](250522_02h15m34s_screenshot.png)
 
 Carousel kullanmak yerine grid yapısını bu şekilde boşuna uzatmanın hiçbir manası yok.
 
@@ -615,19 +615,19 @@ Bu kategorideki sayfaların tamamında bazı görseller ve üzerinde de list ög
 
 ### Hiçbir kelime yok ve sayfada yine href kayması var.
 
-[](250522_02h16m44s_screenshot.png)
+![](250522_02h16m44s_screenshot.png)
 
 Katalog sayfasında bahsettiğim tıklama probleminin aynısı var ve bu başlıca bir sayfa olarak hiçbir yazılı içerik barındırmıyor. Bu sayfa SEO verimini düşürüyor, tamamen kaldırın ya da yeniden tasarlayın.
 ***
 #### Yine aynı hata
 
-[](250522_02h18m08s_screenshot.png)
+![](250522_02h18m08s_screenshot.png)
 
 Sayfadaki her şeyi aynı anda görebilmek için küçültmek durumunda kaldım. Hiçbir bağlam olmadan koyulmuş blueprint ögelerinin hiçbir maksadı yok. Bu sayfayı da tamamen kaldırın ya da daha dengeli ve düzenli bir tasarım uygulayın lütfen.
 ***
 #### Contact Page
 
-[](250522_02h20m10s_screenshot.png)
+![](250522_02h20m10s_screenshot.png)
 
 Bu sayfadaki hizalama hatasını göstermeme gerek bile yok, Widgetlar içerisinde margin/padding problemleri var.  Ayrıca işletme için Rusya'da bir sanal işaretleme yapılması en doğrusu olur, tüm adresler Türkiyeyi gösteriyor.
 
