@@ -508,7 +508,7 @@ Yakalanmış 26 SEO ve HTTP Misconfiguration bulgusundan önemli olanları ve d�
 
 ##### H1 Header Missing - Ortalanmamış Head Section
 
-!(250522_01h13m39s_screenshot.png)
+!(/250522_01h13m39s_screenshot.png)
 
 **Turuncu kutuyla işaretli bölgedeki yazı bir H1 etiketi değil, H2 olarak tanımlanmış ve sayfanın semantik yapısını büyük ölçüde bozuyor. Bu etiketi H1 olarak değiştirip daha düzgün bir pozisyon almasını sağlayın.**
 ***
