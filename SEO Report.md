@@ -508,14 +508,14 @@ Yakalanmış 26 SEO ve HTTP Misconfiguration bulgusundan önemli olanları ve d�
 
 ##### H1 Header Missing - Ortalanmamış Head Section
 
-![[250522_01h13m39s_screenshot.png]]
+[[250522_01h13m39s_screenshot.png]]
 
 **Turuncu kutuyla işaretli bölgedeki yazı bir H1 etiketi değil, H2 olarak tanımlanmış ve sayfanın semantik yapısını büyük ölçüde bozuyor. Bu etiketi H1 olarak değiştirip daha düzgün bir pozisyon almasını sağlayın.**
 ***
 
 ##### Carousel'de başlık kayması
 
-![[250522_01h15m50s_screenshot.png]]
+[[250522_01h15m50s_screenshot.png]]
 
 Kullandığınız carousel'de ürün başlıklarının margin/padding değerleri bozuk.
 ***
@@ -528,18 +528,18 @@ PDF Каталог ve Каталог olmak üzere iki sayfa barındırıyorsunuz
 
 ##### Whatsapp/Slider ikonunun üst üste binmesi
 
-![[250522_01h21m14s_screenshot.png]]
+[[250522_01h21m14s_screenshot.png]]
 
 
 Kullanılan Whatsapp CTA butonu, sayfadaki section nav butonu ile üst üste biniyor. Dikkatli incelerseniz WhatsApp logosunun altındaki turuncu gölgeyi fark edeceksiniz. O aslında fonksiyonel ve WhatsApp ikonundan bağımsız başka bir buton.
 
-![[250522_01h22m26s_screenshot.png]]
+[[250522_01h22m26s_screenshot.png]]
 
 Görebildiğiniz gibi WhatsApp butonunu oluşturan HTML elementi kaldırıldığında buton ortaya çıkıyor.
 ***
 ##### Footerda bulunan raw png hatası
 
-![[250522_01h23m39s_screenshot 1.png]]
+[[250522_01h23m39s_screenshot 1.png]]
 
 Footerda bulunan logo arkaplanı transparan hale getirilmeden konumlandırılmış. Profesyonel ve estetik bir yaklaşım değil, lütfen firmanın gerekli departmanından PNG halini temin edin ya da herhangi bir araçla logoya background-remove prosesi uygulayın. 
 ***
@@ -548,25 +548,25 @@ Footerda bulunan logo arkaplanı transparan hale getirilmeden konumlandırılmı
 
 #### Aynı renk paletinden çift widget
 
-![[250522_01h26m32s_screenshot.png]]
+[[250522_01h26m32s_screenshot.png]]
 
 Burada bulunan CTA widgetı ile footerın birbiriyle aynı paletten iki yakın renkle konumlandırılması, aynı background-image ya da SVG kullanılması hoş bir görüntü yaratmıyor.
 
-![[250522_01h38m48s_screenshot.png]]
+[[250522_01h38m48s_screenshot.png]]
 
 
 Örneğin, Footer için solid bir renk ve CTA için logodaki "Fatih" vurgusunun gövdesinden bir HEX code ile, web sitesi kimliğine daha yakın sonuçlar elde etmek mümkün. Ayrıca User-agent Stylesheet'i kaldırarak CTA bileşeninin içerisinde bulunan list elementlerin sol paddingini lütfen yok edin, orantısızlığa sebep oluyor. Kırmızının tonu daha da açılabilir ve backgroundda kullanılan hatlar öne çıkarılabilir. Renk paletinin duruşu ne kadar değiştirebileceğini göstermek için CSS ayarlarıyla bir miktar oynadım, daha iyi renkler ve tasarım düşünülebilir.
 ***
 ### Genel itibariyle renk paleti
 
-![[Pasted image 20250522020921.png]]
+[[Pasted image 20250522020921.png]]
 Genel itibariyle renk paletinde dengesizlik söz konusu. ::active ve hover pseudoclasslar için turuncu tercih edilmesi yanlış. Butonun mavisi yerine yukarıda gösterdiğim gibi logo üzerinden renk tercih edilebilir, hover rengi için soft grilere ya da yine logo renklerine başvurulabilir.
 
 İşaretlediğim şekilde bakıldığında, web sitesinde renk harmonisi yok. Videolu header sectiona göre bu kadar fazla renk kullanmak estetik değil.
 ***
 ### Sectionlar arası geçiş hissiyatı yok
 
-![[Pasted image 20250522021049.png]]
+[[Pasted image 20250522021049.png]]
 
 Bu üç kısım birbirinden farklı vurgular yapmasına rağmen bir arada durarak UX karmaşası yaratıyor. Lütfen bu üç kısım için basit, sade bir siyah/beyaz/siyah ya da tam tersi olacak şekilde üretebileceğiniz bir çözümle section ayrımları yaratın. Çok fazla hazır class bulunduğundan doğaçlama CSS yazarak örnek gösteremiyorum.
 ***
